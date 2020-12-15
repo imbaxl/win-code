@@ -28,7 +28,7 @@ np6_3 = np.dot(np6_1,np6_2)
 print('np6_1和np6_2的点乘积是:\n',np6_3)
 
 #np.linalg.inv()计算逆矩阵
-np7_1 = np.mat('1,1,1;2,1,3;1,1,4')
+np7_1 = np.mat('4,9;3,7')
 np7_2 = np.linalg.inv(np7_1)
 print('np7_1的逆矩阵是：\n',np7_2)
 
