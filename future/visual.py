@@ -8,7 +8,7 @@ class visual():
         self.data = pd.read_excel(self.data,index_col=0)
         #需要简单的可视化
 
-    def 
+    
 
 
 
@@ -16,5 +16,5 @@ class visual():
 
     
 #contract manual filepath:
-filepath = 'future/data/PTAdata.xlsx'
+filepath = 'future/data/甲醇data.xlsx'
 new_visual = visual(filepath)
