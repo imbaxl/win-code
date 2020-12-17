@@ -23,3 +23,5 @@ class transfer():
         print(df1.shape)
         df1.to_csv('future/data.csv')
         return df1
+
+    #PTA，2015年7月2日数据出错    4862	 5080	4852	5068.0004
