@@ -19,7 +19,7 @@ class clean():
                 clean_df.loc[i,'data'] = clean_df.loc[i,'data'].replace('.','$',1) #限制替换次数为1
                 clean_df.loc[i,'data'] = clean_df.loc[i,'data'].replace('.','',1)
                 clean_df.loc[i,'data'] = clean_df.loc[i,'data'].replace('$','.',1)
-        print('清洗方法完成：\n',clean_df.shape)
+        #print('清洗方法完成：\n',clean_df.shape)
         return clean_df
 
         
