@@ -12,7 +12,8 @@ for i in a:
 #学习matplotlib可视化
 
 #用pandas读取数据
-df1 = pd.read_excel('future/data/甲醇data.xlsx', index_col=0,)
+#df1 = pd.read_excel('future/data/PTAdata.xlsx', index_col=0,)
+df1 = pd.read_csv('future/data.csv',index_col=0)
 
 #修改字体以支持中文显示
 plt.rcParams['font.family']=['Heiti TC']
