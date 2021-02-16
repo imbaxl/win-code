@@ -13,7 +13,7 @@ if __name__ == "__main__":
     new_settings = settings()
     
     #请求数据
-    """
+    
     #for key,value in new_settings.dict.items(): #字典迭代
     for key,value in new_settings.single.items(): #单个合约代码
 
@@ -25,9 +25,9 @@ if __name__ == "__main__":
 
         #数据重整
         new_transfer = transfer(new_clean.clean())
-        new_transfer.trans(value)
+        new_transfer.trans()
 
-    """
+    
     
     new_visual = visual()
 

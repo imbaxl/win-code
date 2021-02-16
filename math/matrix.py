@@ -40,3 +40,9 @@ class matrix():
         a = np.array(a)
         a = np.linalg.det(a) 
         return a
+
+    #求特征值和特征向量
+    def eig(self,a):
+        a, b = np.linalg.eig(a)
+        print('a的特征值：\n',a)
+        print('a的特征向量：\n',b)
